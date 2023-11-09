@@ -1,5 +1,10 @@
 import './App.css';
 import Customer from './components/Customer';
+import Table from '@mui/material/Table'
+import TableHead from '@mui/material/TableHead'
+import TableBody from '@mui/material/TableBody'
+import TableRow  from '@mui/material/TableRow';
+import TableCell  from '@mui/material/TableCell'; //muterial ui 라이브러리 사용
 
 const customers = [{ //customer 객체 정의
   'id' : 1,

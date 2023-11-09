@@ -16,17 +16,28 @@ export default Customer; //Customer 클래스 내보내기
 */
 
 import React from 'react';
-
+import TableRow  from '@mui/material/TableRow';
+import TableCell  from '@mui/material/TableCell';
 function Customer(props) { //props를 직접 담아 사용
     return (
-        <div>
+        /*<div>
             <CustomerProfile id = {props.id} image = {props.image} name = {props.name}/>
             <CustomerInfo birthday = {props.birthday} gender = {props.gender} job = {props.job}/>
         </div> //jsx 문법 중 하나 , 빠지면 error
+        */
+       <TableRow>
+        <TableCell>{props.id}</TableCell>
+        <TableCell><img src ={props.image} alt="profile"/></TableCell>
+        <TableCell>{props.name}</TableCell>
+        <TableCell>{props.birthday}</TableCell>
+        <TableCell>{props.gender}</TableCell>
+        <TableCell>{props.job}</TableCell>
+       </TableRow>
     );
 }
 //Customer profile과 Customer inform으로 구조화 시키기
 
+/*
 function CustomerProfile(props){
     return(
         <div>
@@ -45,5 +56,5 @@ function CustomerInfo(props){
         </div>
     )
 }
-
+*/
 export default Customer;
