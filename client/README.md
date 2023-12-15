@@ -1,7 +1,7 @@
 <!-- gitHub에 올라가서 소개될 내용
 레퍼런스, 설치방법 등-->
 # Management System
-본 프로젝트는 React 강의 목적으로 만들어진 고객 관리 시스템(Management System)입니다.
+openSW 프로젝트를 위해 만들어졌습니다 :b
 
 # Getting Started with Create React App
 
