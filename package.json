@@ -4,7 +4,7 @@
     "script": {
         "client": "cd client && npm start",
         "server": "nodemon server.js",
-        "dev": "concurrently -kill-other-on-fail \"npm start\" \"npm client\" "
+        "dev": "concurrently -kill-others-on-fail \"npm server\" \"npm client\" "
     },
     "dependencies": {
         "body-parser": "^1.18.3",
